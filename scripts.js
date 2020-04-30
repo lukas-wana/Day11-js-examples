@@ -17,7 +17,7 @@ let person = {
 //replace text in HTML
 //$('h1').text('this is from javaScript');
 
-$('h1').html('this is from <em> javaScript </em>');
+// $('h1').html('this is from <em> javaScript </em>');
 
 // add
 $('h2').toggleClass('blue');
@@ -39,17 +39,25 @@ function myLittleFunction() {
 //start function in line
 // myLittleFunction();
 
+function addLikeFunction() {
+  $("p")
+  .animate({width: "100%"})
+}
 
+function LikeFunction() {
+  $("p")
+    .animate({width: "0px"})
+}
 
 
 function addLikeFunction() {
   $(".box")
-  .animate({width: "300px"})
+  .animate({width: "100%"})
 }
 
 function LikeFunction() {
   $(".box")
-  .animate({width: "1px"})
+    .animate({width: "0px"})
 }
 
 $('#like').click(addLikeFunction);
