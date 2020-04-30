@@ -1,3 +1,17 @@
-h1 {
+p {
   color: red;
+  width: 250px;
+}
+
+.blue {
+  background-color: rgb(166, 166, 223);
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.section {
+
 }
